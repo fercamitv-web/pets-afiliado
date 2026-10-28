@@ -1,0 +1,7 @@
+# NÃO ignore a pasta public/ — o Cloudflare Pages publica a partir dela.
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db
