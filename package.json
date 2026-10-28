@@ -1,0 +1,9 @@
+{
+  "name": "pets-afiliado",
+  "version": "1.0.0",
+  "description": "Site de afiliados automatico - Patinha Certa",
+  "scripts": {
+    "build": "exit 0"
+  },
+  "private": true
+}
