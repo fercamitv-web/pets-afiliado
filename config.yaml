@@ -1,0 +1,60 @@
+# ============================================================
+# Patinha Certa — configuração central. Mexa AQUI, não no código.
+# ============================================================
+
+site:
+  nome: "Patinha Certa"
+  dominio: "https://patinhacerta.pages.dev"   # atualize após o primeiro deploy no Cloudflare Pages
+  descricao: "Reviews, comparativos e guias de produtos para cães e gatos"
+  contato_email: ""        # PREENCHA antes de pedir aprovação na Amazon (vira a página /contato)
+  cloudflare_token: ""     # opcional: token do Cloudflare Web Analytics (conta cliques via /ir/)
+
+nicho: "produtos e cuidados para pets (cães e gatos)"
+idioma: "pt-BR"
+
+# Ritmo: 3 publicações/semana (seg/qua/sex, 06h Brasília, via GitHub Actions).
+# Calibrado para 2-3h/semana de revisão humana — TODO artigo é revisado antes do push.
+artigos_por_rodada: 1
+
+# Links de afiliado passam por /ir/ (redirecionamento com 1s de espera) para que o
+# Cloudflare Web Analytics conte cliques por artigo. Mude para false se preferir direto.
+rastrear_cliques: true
+
+modelo:
+  # copia um slug terminado em :free em https://openrouter.ai/models
+  # limite da conta grátis: 50 chamadas/dia (sobe p/ 1.000 com US$ 10 de crédito único)
+  provider: "openrouter"
+  nome: "poolside/laguna-s-2.1:free"
+
+imagens: "pollinations"   # pollinations | loremflickr | nenhum
+
+afiliados:
+  # ── CICLO AMAZON (regra oficial BR) ───────────────────────────
+  # 1. Espere acumular 20 artigos no ar (o agente avisa no Telegram sozinho).
+  # 2. Cadastre-se em associados.amazon.com.br e rode:
+  #      python scripts/amazon.py --aprovado
+  # 3. Preencha a tag abaixo e faça push — TODOS os artigos antigos passam
+  #    a usar a tag no próximo build, sem migração manual.
+  # 4. Você tem 180 dias para 3 vendas qualificadas; o agente avisa em
+  #    60/30/15/7/3 dias e você registra vendas com --venda.
+  amazon:
+    tag: ""               # ex.: "patinhacerta-20" — SÓ depois de aprovado
+    meta_vendas: 3
+    prazo_dias: 180
+    artigos_minimos: 20
+
+  # Mercado Livre Afiliados rastreia via parâmetros próprios
+  # (matt_word/matt_tool). Confirme o formato no painel do programa.
+  ml_matt_word: ""
+
+  # Shopee Afiliados rastreia via af_id (+utm_content).
+  # Confirme no painel do programa antes de preencher.
+  shopee_af_id: ""
+
+  # Enquanto os campos acima estiverem vazios, os shortcodes geram
+  # links de busca simples: funcionam para o leitor, mas não geram
+  # comissão até você ser aprovado em cada programa.
+  disclosure: "Como Associado da Amazon, ganhamos comissão por compras qualificadas. Você paga o mesmo preço."
+
+pinterest:
+  board: "Pets"
