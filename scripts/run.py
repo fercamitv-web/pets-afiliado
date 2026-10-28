@@ -56,10 +56,12 @@ def main() -> None:
         salvar_json(DATA_DIR / "pautas.json", fila)
         build.compilar()
         notify.publicado(meta)
-        distribute.enviar(meta)
-        distribute.publicar_no_pinterest(1)
+        resultado = distribute.distribuir(meta, cfg)
+        print(f"[distribute] {resultado}")
 
-    # pós-rodada: reindexa o site e checa o ciclo do Amazon Associados
+    # pós-rodada: gera cards sociais, reindexa o site e checa o ciclo do Amazon
+    import social_cards
+    social_cards.gerar_todos()
     indexar.indexar()
     amazon.checar()
 
