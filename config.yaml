@@ -38,7 +38,7 @@ afiliados:
   # 4. Você tem 180 dias para 3 vendas qualificadas; o agente avisa em
   #    60/30/15/7/3 dias e você registra vendas com --venda.
   amazon:
-    tag: ""               # ex.: "patinhacerta-20" — SÓ depois de aprovado
+    tag: "fercami-20"               # ex.: "patinhacerta-20" — SÓ depois de aprovado
     meta_vendas: 3
     prazo_dias: 180
     artigos_minimos: 20
