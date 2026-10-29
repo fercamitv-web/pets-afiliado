@@ -1,17 +1,5 @@
 [
   {
-    "titulo": "Areia de sílica ou aglomerante? Comparativo para gato de apartamento",
-    "palavra_chave": "melhor areia para gatos",
-    "tipo": "comparativo",
-    "angulo": "custo por mês e controle de odor em apartamento pequeno, não o preço do saco",
-    "produtos": [
-      "areia sílica para gatos",
-      "areia aglomerante para gatos",
-      "areia biodegradável para gatos"
-    ],
-    "slug": "areia-silica-ou-aglomerante-para-gatos"
-  },
-  {
     "titulo": "Cercado para pets (pet gate): qual escolher para escada e porta",
     "palavra_chave": "cercado para pets",
     "tipo": "guia",
@@ -22,5 +10,101 @@
       "cancela de segurança para pets"
     ],
     "slug": "cercado-para-pets-pet-gate"
+  },
+  {
+    "titulo": "Escovação de pelagem para cães: guia completo para pelos longos e encaracolados",
+    "palavra_chave": "escovação de pelagem para cães",
+    "tipo": "guia",
+    "angulo": "Foca em raças específicas brasileiras com pelos longos, traz diferentes tipos de escovas e técnicas, além de produtos disponíveis no mercado local",
+    "produtos": [
+      "Escova Hzousen para pelos longos",
+      "Escova dental pet Pirinha",
+      "Creme hidratante pelos"
+    ],
+    "slug": "escovacao-de-pelagem-para-caes-guia-completo-para-pelos-longos-e-encar"
+  },
+  {
+    "titulo": "Comparativo: Melhor caixa de areia para gatos grandes em 2024",
+    "palavra_chave": "caixa de areia para gatos grandes",
+    "tipo": "comparativo",
+    "angulo": "Testa caixas de areia de diferentes tamanhos e marcas acessíveis no Brasil, considerando gatos de raças grandes como Maine Coon e Siberiano",
+    "produtos": [
+      "Caixa de areia Gato Bola 60cm",
+      "Caixa de areia Pigatória G",
+      "Modulor Areia Fácil"
+    ],
+    "slug": "comparativo-melhor-caixa-de-areia-para-gatos-grandes-em-2024"
+  },
+  {
+    "titulo": "Como escolher o colete de segurança para cão ideal pelo tamanho e peso",
+    "palavra_chave": "colete de segurança para cão",
+    "tipo": "guia",
+    "angulo": "Aborda normas de segurança brasileiras, diferenças por porte e peso do animal, e testes práticos em carros comuns no país",
+    "produtos": [
+      "Colete de segurança K9 Titanium",
+      "Colete Pet Safe Auto",
+      "Colete de segurança para cão pequeno"
+    ],
+    "slug": "como-escolher-o-colete-de-seguranca-para-cao-ideal-pelo-tamanho-e-peso"
+  },
+  {
+    "titulo": "Melhores rações úmidas para gatos adultos: comparativo de marcas e sabores",
+    "palavra_chave": "ração úmida para gatos adultos",
+    "tipo": "comparativo",
+    "angulo": "Analisa rações úmidas disponíveis em supermercados e lojas pet brasileiras, comparando preço, nutrição e aceitação pelos gatos",
+    "produtos": [
+      "Ração úmida Whiskas Sabor Frango",
+      "Ração úmida Golden Canin",
+      "Ração úmida Premier Pet"
+    ],
+    "slug": "melhores-racoes-umidas-para-gatos-adultos-comparativo-de-marcas-e-sabo"
+  },
+  {
+    "titulo": "Guia definitivo para limpar pelo de cão sem pelos: produtos e técnicas",
+    "palavra_chave": "limpar pelo de cão sem pelos",
+    "tipo": "guia",
+    "angulo": "Trabalha raças como Vira-Lata, Pastor Alemão e outras sem pelos, com produtos específicos e dicas de rotina de higiene",
+    "produtos": [
+      "Shampoo neutro pets",
+      "Condicionador para pelos",
+      "Toalha de microfibra"
+    ],
+    "slug": "guia-definitivo-para-limpar-pelo-de-cao-sem-pelos-produtos-e-tecnicas"
+  },
+  {
+    "titulo": "Qual o melhor brinquedo de liberdade para cão grande: teste de resistência",
+    "palavra_chave": "brinquedo de liberdade para cão grande",
+    "tipo": "review",
+    "angulo": "Testa brinquedos de liberdade em corda, bolas e ossos com cães grandes em diferentes ambientes, medindo durabilidade e segurança",
+    "produtos": [
+      "Brinquedo de liberdade KONG Extreme",
+      "Bola de lança Rexipal",
+      "Ossos de borracha"
+    ],
+    "slug": "qual-o-melhor-brinquedo-de-liberdade-para-cao-grande-teste-de-resisten"
+  },
+  {
+    "titulo": "Como administrar carrapato e pulgas no gato sem usar produtos químicos",
+    "palavra_chave": "carrapato e pulgas no gato natural",
+    "tipo": "guia",
+    "angulo": "Apresenta métodos caseiros eficazes no clima quente brasileiro, usando produtos naturais e técnicas de prevenção ambiental",
+    "produtos": [
+      "Óleo de neem para pets",
+      "Pó de diatomácea",
+      "Repelente natural de pulgas"
+    ],
+    "slug": "como-administrar-carrapato-e-pulgas-no-gato-sem-usar-produtos-quimicos"
+  },
+  {
+    "titulo": "Melhor tapete anti‑derrapante para cães no piso de madeira: comparativo 2024",
+    "palavra_chave": "tapete anti‑derrapante para cães",
+    "tipo": "comparativo",
+    "angulo": "Testa tapetes em apartamentos brasileiros com pisos de madeira, laminado e azulejo, focando em fixação, limpeza e resistência a arranhões",
+    "produtos": [
+      "Tapete anti-derrapante de borracha 60x90cm",
+      "Tapete de EVA para pets",
+      "Tapete de microfibra antideslizante"
+    ],
+    "slug": "melhor-tapete-antiderrapante-para-caes-no-piso-de-madeira-comparativo-"
   }
 ]
